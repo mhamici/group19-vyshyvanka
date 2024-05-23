@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+}
+button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+img {
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: "Manrope", "DM Sans" sans-serif;
+  color: #fcf9f9;
+  font-style: normal;
+  background-color: #1c2225;
+}
+
+/* mobile style  320 */
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .container {
+    max-width: 335px;
+    padding: 0 20px;
+  }
+}
+
+/* mobile style 375 */
+@media (min-width: 375px) {
+  .container {
+    width: 335px;
+    padding: 0 20px;
+  }
+}
+
+/* mobile style  768px*/
+@media (min-width: 768px) {
+  .container {
+    width: 549px;
+    padding: 0 32px;
+  }
+}
+
+/* mobile style 1280px */
+@media (min-width: 1280px) {
+  .container {
+    width: 1180px;
+    padding: 0 50px;
+  }
+}
