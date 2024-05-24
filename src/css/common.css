@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 h1,
 h2,
 h3,
@@ -33,41 +36,136 @@ img {
   width: 100%;
 }
 body {
-  font-family: "Manrope", "DM Sans" sans-serif;
+  font-family: 'Manrope', 'DM Sans' sans-serif;
   color: #fcf9f9;
   font-style: normal;
   background-color: #1c2225;
 }
 
-/* mobile style  320 */
-
-@media (min-width: 320px) and (max-width: 374px) {
-  .container {
-    max-width: 335px;
-    padding: 0 20px;
-  }
-}
-
 /* mobile style 375 */
 @media (min-width: 375px) {
   .container {
-    width: 335px;
+    max-width: 375px;
     padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header_section {
+    max-width: 374px;
+    padding-top: 20px;
+  }
+  .hero_section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .hero_button {
+  }
+  .hero_img {
+  }
+  .section_about_us {
+    padding: 80px 0;
+  }
+  .section_ourcollection {
+    padding-bottom: 80px;
+  }
+  .section_girl {
+    padding-bottom: 80px;
+  }
+  .section_order {
+  }
+  .section_testimonials {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .footer {
+    padding-top: 40px;
+  }
+  .footer_menu {
+    margin-right: 75px;
   }
 }
 
 /* mobile style  768px*/
 @media (min-width: 768px) {
+  .header {
+    width: 768px;
+    padding-top: 20px;
+  }
   .container {
-    width: 549px;
+    width: 704px;
     padding: 0 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero_section {
+    width: 768px;
+    padding: 100px auto;
+  }
+  .hero_button {
+  }
+  .hero_img {
+  }
+  .section_about_us {
+    padding-bottom: 100px;
+  }
+  .section_ourcollection {
+    padding-bottom: 100px;
+  }
+  .section_girl {
+    padding-bottom: 100px;
+  }
+  .section_order {
+  }
+  .section_testimonials {
+    padding-top: 100px;
+    padding-bottom: 1000px;
+  }
+  .footer {
+    padding-top: 40px;
+  }
+  .footer_menu {
+    margin-top: 40px;
   }
 }
 
 /* mobile style 1280px */
 @media (min-width: 1280px) {
+  .header {
+    width: 1280px;
+    margin-right: 20px;
+  }
   .container {
     width: 1180px;
     padding: 0 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero_section {
+    width: 1180px;
+  }
+  .hero_button {
+  }
+  .hero_img {
+  }
+  .section_about_us {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .section_ourcollection {
+    padding-bottom: 150px;
+  }
+  .section_girl {
+    padding-bottom: 150px;
+  }
+  .section_order {
+  }
+  .section_testimonials {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .footer {
+    padding-top: 40px;
+  }
+  .footer_menu {
   }
 }
