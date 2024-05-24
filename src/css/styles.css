@@ -4,14 +4,16 @@
   | default @import url()
   |============================
 */
-@import url('./about.css');
+@import url('./common.css');
 @import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
 @import url('./collection.css');
-@import url('./footer.css');
 @import url('./order.css');
 @import url('./testimonials.css');
-@import url('./hero.css');
-@import url('./common.css');
+@import url('./footer.css');
+
+
 
 
 

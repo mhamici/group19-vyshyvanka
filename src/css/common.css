@@ -33,41 +33,34 @@ img {
   width: 100%;
 }
 body {
-  font-family: "Manrope", "DM Sans" sans-serif;
+  font-family: "Manrope", "DM Sans", sans-serif;
   color: #fcf9f9;
   font-style: normal;
   background-color: #1c2225;
+  font-size: 16px;
 }
 
-/* mobile style  320 */
-
-@media (min-width: 320px) and (max-width: 374px) {
-  .container {
-    max-width: 335px;
-    padding: 0 20px;
-  }
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 /* mobile style 375 */
 @media (min-width: 375px) {
-  .container {
-    width: 335px;
-    padding: 0 20px;
-  }
+.container {
+  width: 375px;
 }
-
+}
 /* mobile style  768px*/
 @media (min-width: 768px) {
-  .container {
-    width: 549px;
-    padding: 0 32px;
-  }
+.container {
+  width: 768px;
+  padding: 0 32px;
 }
-
+}
 /* mobile style 1280px */
 @media (min-width: 1280px) {
-  .container {
-    width: 1180px;
-    padding: 0 50px;
-  }
-}
+.container {
+  width: 1280px;
+  padding: 0 50px;
+}}
