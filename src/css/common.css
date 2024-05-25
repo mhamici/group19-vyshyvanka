@@ -37,6 +37,7 @@ img {
 }
 body {
   font-family: "Manrope", "DM Sans", sans-serif;
+  font-family: "Manrope", "DM Sans", sans-serif;
   color: #fcf9f9;
   font-style: normal;
   background-color: #1c2225;
@@ -66,4 +67,7 @@ body {
 .container {
   width: 1280px;
   padding: 0 50px;
-}}
+  margin-right: auto;
+  margin-left: auto;
+}
+}
