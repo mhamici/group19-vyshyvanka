@@ -12,8 +12,8 @@
     .container{
         padding-left:20px;
         padding-right: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left:0;
+        margin-right: 0;
     }
 
     .section-hero-handmade-embroidery{
@@ -42,6 +42,10 @@
     }
 
     .section-hero-btn-submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
         border: 1px solid rgba(252, 249, 249, 0.1);
         border-radius: 15px;
         padding: 14px 36px;
@@ -49,12 +53,15 @@
         width: 154px;
         height: 49px;
         background-color: transparent;
-
         font-weight: 600;
         font-size: 14px;
         letter-spacing: -0.04em;
         text-transform: uppercase;
         color: #fcf9f9;
+    }
+
+    .section-hero-btn-icon{
+        fill: #ecd979;
     }
 
     .section-hero-embroidery-container{
@@ -67,8 +74,3 @@
         height: 545px;
     }
   }
-
-
- 
-  
- 
