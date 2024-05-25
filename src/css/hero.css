@@ -1,0 +1,76 @@
+.container {
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* -----------------MOBILE STYLES--------------------- */
+
+  @media screen and (min-width: 320px){
+    .container{
+        padding-left:20px;
+        padding-right: 20px;
+        margin-left:0;
+        margin-right: 0;
+    }
+
+    .section-hero-handmade-embroidery{
+        display: none;
+    }
+
+    .section-hero-content-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 84px;
+        margin-bottom: 40px;
+    }
+
+    .section-hero-content{
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 1.1;
+        letter-spacing: -0.03em;
+        width: 335px;
+        margin: 0;
+    }
+
+    .hero-span-content{
+        color: #ecd979;
+    }
+
+    .section-hero-btn-submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid rgba(252, 249, 249, 0.1);
+        border-radius: 15px;
+        padding: 14px 36px;
+        margin-left: 70px;
+        width: 154px;
+        height: 49px;
+        background-color: transparent;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        color: #fcf9f9;
+    }
+
+    .section-hero-btn-icon{
+        fill: #ecd979;
+    }
+
+    .section-hero-embroidery-container{
+        display: none;
+    }
+
+    .section-hero-image{
+        border-radius: 4px;
+        width: 335px;
+        height: 545px;
+    }
+  }
