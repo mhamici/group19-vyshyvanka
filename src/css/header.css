@@ -166,10 +166,9 @@
 .mob-menu-img {
   position: absolute;
   bottom: 0%;
+  height: auto;
 }
 
-
-/* @media screen and (max-width: 1279px) {} */
 @media screen and (min-width: 768px) {
   .mob-menu .container {
     max-width: 380px;
