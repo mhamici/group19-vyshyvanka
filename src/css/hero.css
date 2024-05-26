@@ -6,9 +6,12 @@
     margin-right: auto;
   }
   
+img{
+    border-radius: 4px;
+}
   /* -----------------MOBILE STYLES--------------------- */
 
-  @media screen and (min-width: 320px){
+@media screen and (min-width: 320px){
     .container{
         padding-left:20px;
         padding-right: 20px;
@@ -74,3 +77,135 @@
         height: 545px;
     }
   }
+
+/* -----------------TABLET STYLES--------------------- */
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+
+    .section-hero{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-hero-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .section-hero-content-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+        gap: 40px;
+        margin-top: 0px;
+        margin-bottom: 46px;
+    }
+
+    .section-hero-content{
+        font-size: 54px;
+        line-height: 1.19;
+        margin-top: 0;
+        width: 549px;
+        height: 192px;
+    }
+
+    .hero-span-content{
+        color: #ecd979;
+    }
+
+    .section-hero-embroidery-container{
+        position: absolute;
+        right: 32px;
+        top: 116px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 115px;
+    }
+
+    .section-hero-embroidery{
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: rgba(252, 249, 249, 0.4);
+        margin: 0;
+    }
+
+    .section-hero-embroidery-icon{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        fill: #ecd979;
+    }
+
+    .section-hero-btn-submit{
+        padding: 14px 36px;
+        margin-left: 141px;
+        margin-right: 395px;
+    }
+
+    .section-hero-image-container{
+        width: 413px;
+        height: 575px;
+    }
+  }
+
+/* -----------------DESKTOP STYLES--------------------- */
+@media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section-hero-wrapper{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-hero-content{
+        width: 518px;
+        height: 192px;
+        margin-bottom: 0;
+    }
+
+    .hero-span-content{
+        color: #ecd979;
+    }
+
+    .section-hero-embroidery-container{
+        right: 50px;
+        top: 114px;
+    }
+
+    .section-hero-embroidery{
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: rgba(252, 249, 249, 0.4);
+        margin: 0;
+    }
+
+    .section-hero-image-container{
+        border-radius: 4px;
+        width: 392px;
+        height: 545px;
+    }
+
+    .section-hero-embroidery-icon{
+        position: absolute;
+
+    }
+}

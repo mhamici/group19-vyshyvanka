@@ -16,15 +16,23 @@
             </button>
         </div>
             <div class="section-hero-image-container">
-                <img srcset="../img/mobile/maingirl.webp 1x, ../img/mobile/maingirlx2.webp 2x"
-                src="../img/mobile/maingirl.webp"  class="section-hero-image" alt="girl with gray embroidery">
+                <picture >
+                    <source  media="(min-width: 1158px)"
+                        srcset="../img/hero/main-girl-desktop-min.jpg 1x,
+                        ../img/hero/main-girl-desktop@2x-min.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="../img/hero/main-girl-tablet-min.jpg 1x,
+                        ../img/hero/main-girl-tablet@2x-min.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="../img/hero/main-girl-mobile-min.jpg 1x,
+                        ../img/hero/main-girl-mobile@2x-min.jpg 2x">
+                    <img src="../img/hero/main-girl-desktop-min.jpg" alt="girl with gray embroidery">
+                </picture>
             </div>
         </div>
     <div class="section-hero-embroidery-container">
         <svg class="section-hero-embroidery-icon" width="52" height="51">
-            <use href=".\">
-
-            </use>
+            <use href="/img/icons.svg#icon-star"></use>
         </svg>
         <p class="section-hero-embroidery">
             all embroidery is made by hand
