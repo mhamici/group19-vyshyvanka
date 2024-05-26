@@ -1,0 +1,61 @@
+/* .cont-about {
+    min-width: 320px;
+} */
+.about-title {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+    margin-bottom: 40px;
+}
+.about-text-one {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    color: rgba(252, 249, 249, 0.4);
+    margin-bottom: 20px;
+}
+.about-text-two {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    color: rgba(252, 249, 249, 0.4);
+    margin-bottom: 50px;
+}
+.about-imges {
+    border-radius: 4px;
+    max-width: 335px;
+    height: 499px;
+}
+@media screen and (min-width: 768px) {
+    .about-title {
+        font-size: 44px;
+        line-height: 1.45;
+    }
+    .about-text-one {
+        font-size: 16px;
+    }
+    .about-text-two {
+        font-size: 16px;
+    }
+    .about-imges {
+        max-width: 704px;
+        height: 545px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .about-text-one {
+        max-width: 536px;
+    }
+    .about-text-two {
+        max-width: 536px;
+    }
+    .about-imges {
+        max-width: 594px;
+        height: 545px;
+    }
+}
