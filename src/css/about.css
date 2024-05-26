@@ -3,7 +3,7 @@
 .about-section {
     padding: 80px 20px;
 
-}}
+}
 .about-title {
     font-weight: 500;
     font-size: 32px;
@@ -39,10 +39,6 @@
 
 @media screen and (min-width: 768px){
 .about-section{
-    /* padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 32px;
-    padding-left: 32px; */
     padding: 100px 32px;
 }
 
@@ -63,10 +59,6 @@
 
 @media screen and (min-width: 1280px){
 .about-section{
-    /* padding-top: 150px;
-    padding-bottom: 150px;
-    padding-right: 50px;
-    padding-left: 50px; */
 padding: 150px 50px;
 }
 
@@ -87,5 +79,6 @@ padding: 150px 50px;
 .paragraph-2{
     max-width: 536px;
 }
-
 }
+
+
