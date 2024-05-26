@@ -76,19 +76,22 @@
 .order-btn-icon {
   fill: #ecd979;
 }
+
 .box-vysh {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .box-vysh {
-    display: block;
-  }
   .img-vysh {
     border-radius: 4px;
+    object-fit: contain;
+    padding-bottom: 121px;
   }
   .order-box {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .box-vysh {
+    display: block;
   }
   .your-order-title {
     width: 542px;
