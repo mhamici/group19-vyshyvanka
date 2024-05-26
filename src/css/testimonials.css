@@ -18,16 +18,16 @@ p {
   }
 }
 .testimonials-title {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 32px;
   line-height: 1.375;
   letter-spacing: -0.03em;
   color: #fcf9f9;
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .testimonials-title {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 44px;
     line-height: 1.45455;
     letter-spacing: -0.03em;

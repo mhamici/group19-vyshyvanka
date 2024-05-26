@@ -54,6 +54,7 @@
         padding: 100px 32px;
     }
 
+
     @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
         .about-section {
@@ -108,3 +109,5 @@
     }
 
 }
+
+
