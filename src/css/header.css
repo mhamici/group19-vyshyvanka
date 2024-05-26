@@ -10,7 +10,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
 .nav-list {
   display: none;
 }
@@ -66,6 +65,20 @@
 }
 
 /* ======= MOBMENU SECTION ======= */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.7);
+  z-index: 999;
+  display: none;
+}
+
+.overlay.is-open {
+  display: block;
+}
 .mob-menu {
   position: fixed;
   top: 0;
@@ -81,7 +94,9 @@
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.menu-open {
+  overflow: hidden;
+}
 .mob-menu.is-open {
   transform: translateX(0%);
 }
