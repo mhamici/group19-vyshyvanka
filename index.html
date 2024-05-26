@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <link rel="stylesheet" href="/group19-vyshyvanka/assets/index-3e505f84.css">
+    <link rel="stylesheet" href="/group19-vyshyvanka/assets/index-2dcb9363.css">
   </head>
   <body>
     <header class="header">
@@ -32,20 +32,20 @@
         <ul class="soc-list">
             <li class="svg-card"><a href="https://www.facebook.com/goITclub/" target="_blank" class="svg-link"><svg
                         class="team-soc" width="28" height="28">
-                        <use href="/group19-vyshyvanka/assets/icons-464d7b5b.svg#icon-facebook"></use>
+                        <use href="/group19-vyshyvanka/assets/icons-aa636a13.svg#icon-facebook"></use>
                     </svg></a></li>
             <li class="svg-card"><a href="https://www.instagram.com/goitclub/" target="_blank" class="svg-link"><svg
                         class="team-soc" width="28" height="28">
-                        <use href="/group19-vyshyvanka/assets/icons-464d7b5b.svg#icon-instagram"></use>
+                        <use href="/group19-vyshyvanka/assets/icons-aa636a13.svg#icon-instagram"></use>
                     </svg></a></li>
             <li class="svg-card"><a href="https://www.youtube.com/c/GoIT" target="_blank" class="svg-link"><svg
                         class="team-soc" width="28" height="28">
-                        <use href="/group19-vyshyvanka/assets/icons-464d7b5b.svg#icon-youtube"></use>
+                        <use href="/group19-vyshyvanka/assets/icons-aa636a13.svg#icon-youtube"></use>
                     </svg></a></li>
         </ul>
         <button class="mob-open-btn" type="button" data-menu-button>
             <svg class="mob-open-btn-icon" width="44" height="30">
-                <use href="/group19-vyshyvanka/assets/icons-464d7b5b.svg#icon-menu"></use>
+                <use href="/group19-vyshyvanka/assets/icons-aa636a13.svg#icon-menu"></use>
             </svg>
         </button>
     </div>
@@ -66,20 +66,28 @@
             <button class="section-hero-btn-submit" type="submit">
                 Order
                 <svg class="section-hero-btn-icon"  width="24" height="16">
-                    <use href="../img/icons.svg#icon-arrow" ></use>
+                    <use href="/group19-vyshyvanka/assets/icons-aa636a13.svg#icon-arrow" ></use>
                 </svg>
             </button>
         </div>
             <div class="section-hero-image-container">
-                <img srcset="../img/mobile/maingirl.webp 1x, ../img/mobile/maingirlx2.webp 2x"
-                src="../img/mobile/maingirl.webp"  class="section-hero-image" alt="girl with gray embroidery">
+                <picture>
+                    <source  media="(min-width: 1158px)"
+                        srcset="../img/hero/main-girl-desktop-min.jpg 1x,
+                        ../img/hero/main-girl-desktop@2x-min.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="../img/hero/main-girl-tablet-min.jpg 1x,
+                        ../img/hero/main-girl-tablet@2x-min.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="../img/hero/main-girl-mobile-min.jpg 1x,
+                        ../img/hero/main-girl-mobile@2x-min.jpg 2x">
+                    <img src="../img/hero/main-girl-desktop-min.jpg" alt="girl with gray embroidery" class="section-hero-image">
+                </picture>
             </div>
         </div>
     <div class="section-hero-embroidery-container">
         <svg class="section-hero-embroidery-icon" width="52" height="51">
-            <use href=".\">
-
-            </use>
+            <use href="/group19-vyshyvanka/assets/icons-aa636a13.svg#icon-star"></use>
         </svg>
         <p class="section-hero-embroidery">
             all embroidery is made by hand
@@ -290,7 +298,7 @@
         </address>
         <button class="mob-menu-close-btn" data-menu-button-close>
             <svg class="mob-menu-close-btn-icon" width="36" height="36">
-                <use href="/group19-vyshyvanka/assets/icons-464d7b5b.svg#icon-close"></use>
+                <use href="/group19-vyshyvanka/assets/icons-aa636a13.svg#icon-close"></use>
             </svg>
         </button>
 
