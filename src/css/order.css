@@ -80,9 +80,6 @@
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
   .box-vysh {
     display: block;
   }
@@ -125,9 +122,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
   .order-box {
     display: flex;
     flex-direction: row;
