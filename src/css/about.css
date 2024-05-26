@@ -2,19 +2,8 @@
 
 .about-section {
     padding: 80px 20px;
-    background-image: url(../img/about/about-bg-mob.png);
-    background-repeat: no-repeat;
 
 }
-
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi){
-    .about-section{
-        background-image: url(../img/about/about-bg-mob-2x.png);
-    }
-}
-
-
 .about-title {
     font-weight: 500;
     font-size: 32px;
@@ -31,8 +20,8 @@
 }
 
 .about-image {
-    max-width: 100%;
-    height: auto;
+        max-width: 100%;
+        height: auto;
 }
 
 .about-content {}
@@ -49,65 +38,47 @@
 }
 
 @media screen and (min-width: 768px){
-    .about-section{
-        background-image: url(../img/about/about-bg-tab.png);
-        padding: 100px 32px;
-    }
+.about-section{
+    padding: 100px 32px;
+}
 
+.about-title{
+    font-size: 44px;
+    line-height: 1.45;
+}
 
-    @media screen and (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-        .about-section {
-            background-image: url(../img/about/about-bg-tab-2x.png);
-        }
-    }
+.about-paragraph{
+    font-size: 16px;
+    max-width: 704px;
+}
 
-    .about-title{
-        font-size: 44px;
-        line-height: 1.45;
-    }
-
-    .about-paragraph{
-        font-size: 16px;
-        max-width: 704px;
-    }
-
-    .about-wrap{
-        gap: 40px;
-    }
+.about-wrap{
+    gap: 40px;
+}
 }
 
 @media screen and (min-width: 1280px){
-    .about-section{
-        background-image: url(../img/about/about-bg.png);
-        padding: 150px 50px;
-    }
+.about-section{
+padding: 150px 50px;
+}
 
-    @media screen and (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-        .about-section {
-            background-image: url(../img/about/about-bg-2x.png);
-        }
-    }
+.about-wrap{
+    flex-wrap: nowrap;
+    gap: 50px;
+}
 
-    .about-wrap{
-        flex-wrap: nowrap;
-        gap: 50px;
-    }
+.about-content{
+    padding-top: 78.5px;
+    padding-bottom: 78.5px;
+}
 
-    .about-content{
-        padding-top: 78.5px;
-        padding-bottom: 78.5px;
-    }
+.paragraph-1{
+    max-width: 508px;
+}
 
-    .paragraph-1{
-        max-width: 508px;
-    }
-
-    .paragraph-2{
-        max-width: 536px;
-    }
-
+.paragraph-2{
+    max-width: 536px;
+}
 }
 
 
