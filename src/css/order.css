@@ -1,8 +1,5 @@
 /*======YUOR_ORDER=========*/
 
-@media screen and (min-resolution: 192dpi) {
-  background-image: url(/img/img-order/zelena-order-mob@2x-min.jpg);
-}
 .section-order {
   padding-bottom: 80px;
 }
@@ -24,20 +21,18 @@
   align-items: flex-start;
   row-gap: 20px;
 }
-.your-order-form-box {
-  margin-left: 20px;
-}
+
 .order-form-input {
-  background-color: inherit;
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 15px;
   padding: 14px 16px;
   min-width: 335px;
   height: 47px;
   color: #fcf9f9;
+  background-color: transparent;
 }
 .textarea-order {
-  background-color: inherit;
+  background-color: transparent;
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 8px;
   padding: 14px 16px;
@@ -73,10 +68,13 @@
   display: none;
 }
 @media screen and (min-width: 768px) {
+  .section-order {
+    padding-bottom: 100px;
+  }
   .img-vysh {
     border-radius: 4px;
     object-fit: contain;
-    padding-bottom: 121px;
+    margin-left: 20px;
   }
   .order-box {
     display: flex;
@@ -84,6 +82,13 @@
   }
   .box-vysh {
     display: block;
+    width: 704px;
+    height: 600px;
+    background-image: url(/img/img-order/ornam-tablet-min.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 0;
+    background-size: 289px 484px;
   }
   .your-order-title {
     width: 542px;
@@ -97,13 +102,22 @@
   .order-form-input {
     min-width: 508px;
     height: 50px;
+    transition: border-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  }
+  .order-form-input:focus {
+    border-color: #fcf9f9;
   }
   .textarea-order {
     min-width: 508px;
     height: 196px;
+    transition: border-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  }
+  .textarea-order:focus {
+    border-color: #fcf9f9;
   }
   .order-send-btn {
     margin: 0;
+    transition: border 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
   }
   .order-background-image {
     min-width: 768px;
@@ -111,14 +125,24 @@
     background-image: url(/img/img-order/zelena-order-tablet-min.jpg);
     margin-bottom: 100px;
   }
+  .order-send-btn:hover,
+  .order-send-btn:focus {
+    border: 1px solid #ecd979;
+  }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .order-background-image {
     background-image: url(/img/img-order/zelena-order-tablet@2x-min.jpg);
   }
+  .box-vysh {
+    background-image: url(/img/img-order/ornam-tablet@2x-min.png);
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .section-order {
+    padding-bottom: 150px;
+  }
   .order-box {
     display: flex;
     flex-direction: row;
@@ -128,11 +152,24 @@
     min-width: 1282px;
     min-height: 776px;
     background-image: url(/img/img-order/zelena-order-desctop-min.jpg);
-    margin-bottom: 150px;
+  }
+  .box-vysh {
+    background-image: url(/img/img-order/ornam-desctop-min.png);
+    width: 600px;
+    height: 640px;
+    position: relative;
+  }
+  .box-vysh .img-vysh {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .order-background-image {
     background-image: url(/img/img-order/zelena-order-desctop@2x-min.jpg);
+  }
+  .box-vysh {
+    background-image: url(/img/img-order/ornam-desctop@2x-min.png);
   }
 }
