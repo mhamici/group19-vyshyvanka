@@ -1,13 +1,5 @@
 /*======YUOR_ORDER=========*/
-.order-background-image {
-  min-width: 375px;
-  min-height: 500px;
-  background-image: url(/img/img-order/zelena-order-mob-min.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 80px;
-}
+
 @media screen and (min-resolution: 192dpi) {
   background-image: url(/img/img-order/zelena-order-mob@2x-min.jpg);
 }
