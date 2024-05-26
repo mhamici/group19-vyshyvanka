@@ -1,0 +1,146 @@
+/*======YUOR_ORDER=========*/
+.order-background-image {
+  min-width: 375px;
+  min-height: 500px;
+  background-image: url(/img/img-order/zelena-order-mob-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+@media screen and (min-resolution: 192dpi) {
+  background-image: url(/img/img-order/zelena-order-mob@2x-min.jpg);
+}
+.section-order {
+  padding-bottom: 80px;
+}
+.your-order-title {
+  padding-bottom: 40px;
+  text-align: start;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
+  width: 335px;
+}
+.yellow-title {
+  color: #ecd979;
+}
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+.your-order-form-box {
+  margin-left: 20px;
+}
+.order-form-input {
+  background-color: inherit;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 16px;
+  min-width: 335px;
+  height: 47px;
+  color: #fcf9f9;
+}
+.textarea-order {
+  background-color: inherit;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 8px;
+  padding: 14px 16px;
+  min-width: 335px;
+  height: 196px;
+  margin-bottom: 20px;
+  color: #fcf9f9;
+}
+.order-send-btn {
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-width: 145px;
+  color: #fcf9f9;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+}
+.order-btn-icon {
+  fill: #ecd979;
+}
+
+.box-vysh {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .img-vysh {
+    border-radius: 4px;
+    object-fit: contain;
+    padding-bottom: 121px;
+  }
+  .order-box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .box-vysh {
+    display: block;
+  }
+  .your-order-title {
+    width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+  }
+  .order-form {
+    margin-bottom: 100px;
+    margin-right: 32px;
+  }
+  .order-form-input {
+    min-width: 508px;
+    height: 50px;
+  }
+  .textarea-order {
+    min-width: 508px;
+    height: 196px;
+  }
+  .order-send-btn {
+    margin: 0;
+  }
+  .order-background-image {
+    min-width: 768px;
+    min-height: 776px;
+    background-image: url(/img/img-order/zelena-order-tablet-min.jpg);
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .order-background-image {
+    background-image: url(/img/img-order/zelena-order-tablet@2x-min.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .order-background-image {
+    min-width: 1282px;
+    min-height: 776px;
+    background-image: url(/img/img-order/zelena-order-desctop-min.jpg);
+    margin-bottom: 150px;
+  }
+}
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .order-background-image {
+    background-image: url(/img/img-order/zelena-order-desctop@2x-min.jpg);
+  }
+}
