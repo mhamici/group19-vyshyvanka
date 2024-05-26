@@ -17,3 +17,4 @@
     document.body.classList.toggle('menu-open');
   }
 })();
+
