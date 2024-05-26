@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <link rel="stylesheet" href="/group19-vyshyvanka/assets/index-4248bd0b.css">
+    <link rel="stylesheet" href="/group19-vyshyvanka/assets/index-fb4a5470.css">
   </head>
   <body>
     <header class="header">
@@ -209,7 +209,78 @@
 <section class="section-backgroung">
 <div class="background-image"></div>
 </section>
-      
+      <!---------YOUR_ORDER--------->
+<section class="section-order container">
+  <div class="order-background-image"></div>
+  <div class="order-box">
+    <div class="box-vysh">
+      <picture>
+        <source
+          srcset="
+            /img/img-order/vysh-order-tablet-min.jpg,
+            /img/img-order/vysh-order-table@2xt-min.jpg
+          "
+          width="704"
+          height="521"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            /img/img-order/vysh-order-desctop-min.jpg,
+            /img/img-order/vysh-order-desctop@2xt-min.jpg
+          "
+          width="588"
+          height="521"
+          media="(min-width:1280px)"
+        />
+        <img
+          class="img-vysh"
+          src="/group19-vyshyvanka/assets/vysh-order-desctop-min-63a6cd40.jpg"
+          alt="Vyshyvanka"
+        />
+      </picture>
+    </div>
+    <div class="your-order-form-box">
+      <h2 class="your-order-title">
+        <span class="yellow-title">Your order</span> is our priority:
+        Personalized approach and quality of service
+      </h2>
+      <form class="order-form">
+        <input
+          type="text"
+          name="user-name"
+          class="order-form-input"
+          id="user-name"
+          placeholder="Enter your full name"
+          pattern="[A-Za-z]"
+          required
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="order-form-input"
+          id="modal-email"
+          placeholder="Enter your email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]"
+          required
+        />
+        <textarea
+          type="submit"
+          name="user-comment"
+          class="textarea-order"
+          id="user-comment"
+          placeholder="Comments"
+        ></textarea>
+        <button type="submit" class="order-send-btn">
+          Send<svg class="order-btn-icon" height="24" width="24">
+            <use href="/group19-vyshyvanka/assets/icons-aa636a13.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
       <section class="testimonials">
   <div class="container">
     <h3 class="testimonials-title">Testimonials</h3>
