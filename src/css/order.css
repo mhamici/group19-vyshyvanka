@@ -1,7 +1,7 @@
 /*======YUOR_ORDER=========*/
 .order-background-image {
-  width: 375px;
-  height: 500px;
+  min-width: 375px;
+  min-height: 500px;
   background-image: url(/img/img-order/zelena-order-mob-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -42,6 +42,7 @@
   padding: 14px 16px;
   min-width: 335px;
   height: 47px;
+  color: #fcf9f9;
 }
 .textarea-order {
   background-color: inherit;
@@ -51,6 +52,7 @@
   min-width: 335px;
   height: 196px;
   margin-bottom: 20px;
+  color: #fcf9f9;
 }
 .order-send-btn {
   background-color: inherit;
@@ -59,7 +61,7 @@
   justify-content: center;
   gap: 10px;
   cursor: pointer;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 15px;
   padding-bottom: 15px;
   min-width: 145px;
@@ -74,14 +76,70 @@
 .order-btn-icon {
   fill: #ecd979;
 }
+.box-vysh {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
+  .box-vysh {
+    display: block;
+  }
+  .img-vysh {
+    border-radius: 4px;
+  }
+  .order-box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .your-order-title {
+    width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+  }
+  .order-form {
+    margin-bottom: 100px;
+    margin-right: 32px;
+  }
+  .order-form-input {
+    min-width: 508px;
+    height: 50px;
+  }
+  .textarea-order {
+    min-width: 508px;
+    height: 196px;
+  }
+  .order-send-btn {
+    margin: 0;
+  }
+  .order-background-image {
+    min-width: 768px;
+    min-height: 776px;
+    background-image: url(/img/img-order/zelena-order-tablet-min.jpg);
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  background-image: url(/img/img-order/zelena-order-tablet@2x-min.jpg);
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
   }
+  .order-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .order-background-image {
+    min-width: 1282px;
+    min-height: 776px;
+    background-image: url(/img/img-order/zelena-order-desctop-min.jpg);
+    margin-bottom: 150px;
+  }
+}
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  background-image: url(/img/img-order/zelena-order-desctop@2x-min.jpg);
 }
