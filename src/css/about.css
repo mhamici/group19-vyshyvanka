@@ -1,7 +1,6 @@
 
-.about-section {}
 
-.container {
+.about-section {
     padding: 80px 20px;
 
 }
@@ -39,10 +38,12 @@
 }
 
 @media screen and (min-width: 768px){
-.container{
-    padding-top: 100px;
+.about-section{
+    /* padding-top: 100px;
     padding-bottom: 100px;
-    /* padding: 100px 32px; */
+    padding-right: 32px;
+    padding-left: 32px; */
+    padding: 100px 32px;
 }
 
 .about-title{
@@ -61,10 +62,12 @@
 }
 
 @media screen and (min-width: 1280px){
-.container{
-    padding-top: 150px;
+.about-section{
+    /* padding-top: 150px;
     padding-bottom: 150px;
-/* padding: 150px 50px; */
+    padding-right: 50px;
+    padding-left: 50px; */
+padding: 150px 50px;
 }
 
 .about-wrap{
