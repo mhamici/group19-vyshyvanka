@@ -37,6 +37,34 @@ margin: 0;
 padding-top: 18px;
 padding-bottom: 80px;
 }
+.div-list-collection {
+  width: 335px;
+  height: 400px;
+}
+.background-image {
+  background-image: url(../img/new-collection/girls@2x-min.jpg);
+  background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 375px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.section-backgroung {
+  padding-bottom: 80px;
+}
+.image-collection {
+  border-radius: 4px;
+}
+
+.our-collection-group {
+  background-image: url(../img/new-collection/elements@2x-min.png);
+  background-repeat: no-repeat;
+  background-position-y: 316px;
+background-size: 199px 177px;
+background-position-x: -126px;
+}
 }
 /* =========================================== STYLES TABLET ===========================================*/
 @media screen and (min-width: 768px) {
@@ -50,6 +78,7 @@ padding-bottom: 80px;
         display: flex;
         flex-wrap: wrap;
         gap:20px;
+        border-radius: 4px;
       }
       .text-title-3 {
         padding: 0;
@@ -58,6 +87,34 @@ padding-bottom: 80px;
       .title-2-collection {
         text-align: center;
       }
+      .background-image {
+        background-image: url(../img/new-collection/girls@2x-min.jpg);
+        background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              margin-left: auto;
+              margin-right: auto;
+              width: 768px;
+              height: 776px;
+      }
+      .section-our-colection {
+        padding-top: 18px;
+        padding-bottom: 100px;
+        }
+        .section-backgroung {
+          padding-bottom: 100px;
+        }
+        .div-list-collection {
+          width: 335px;
+          height: 430px;
+        }
+        .our-collection-group {
+          background-image: url(../img/new-collection/elements@2x-min.png);
+          background-repeat: no-repeat;
+          background-position-y: 220px;
+        background-size: 338px 300px;
+        background-position-x: -200px;
+        }
 }
 /* =========================================== STYLES LAPTOP ===========================================*/
 @media screen and (min-width:1280px) {
@@ -87,4 +144,27 @@ padding-bottom: 80px;
         text-align: center;
         margin-bottom: 40px;
     }
+    .background-image {
+      background-image: url(../img/new-collection/girls@2x-min.jpg);
+      background-repeat: no-repeat;
+            background-position: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1280px;
+            height: 776px;
+    }
+    .section-our-colection {
+      padding-top: 18px;
+      padding-bottom: 150px;
+      }
+      .section-backgroung {
+        padding-bottom: 150px;
+      }
+      .our-collection-group {
+        background-image: url(../img/new-collection/elements@2x-min.png);
+        background-repeat: no-repeat;
+        background-position-y: 217px;
+      background-size: 338px 300px;
+      background-position-x: -170px;
+      }
     }
