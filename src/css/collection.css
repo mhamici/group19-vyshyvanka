@@ -1,90 +1,100 @@
 /* =========================================== STYLES MOBILE FIRST =========================================== */
 @media screen and (min-width:375px) {
-.title-2-collection {
-    font-family: "Manrope", sans-serif;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 1.375;
-    letter-spacing: -0.03em;
-    color: #fcf9f9;
-    text-align: center;
-    margin-bottom: 40px;
-}
-.title-3-colection {
-    font-family: "Manrope", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-color: #fcf9f9;
-margin-bottom: 8px;
-}
-.paragraph-collection {
-    font-family: "Manrope", sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 1;
-letter-spacing: 0.05em;
-color: rgba(252, 249, 249, 0.4);
-margin: 0;
-}
-.text-title-3 {
-    padding-top: 18px;
-    padding-bottom: 23px;
-}
-.section-our-colection {
-padding-top: 18px;
-padding-bottom: 80px;
-}
-}
-/* =========================================== STYLES TABLET ===========================================*/
-@media screen and (min-width: 768px) {
-    .div-list-collection, .text-title-3 {
-        width: 342px;
-      }
-      .list-collection {
-        width: calc((100% - 20px) / 2);
-      }
-      .ul-collection {
-        display: flex;
-        flex-wrap: wrap;
-        gap:20px;
-      }
-      .text-title-3 {
-        padding: 0;
-        padding-top: 18px;
-      }
-      .title-2-collection {
-        text-align: center;
-      }
-}
-/* =========================================== STYLES LAPTOP ===========================================*/
-@media screen and (min-width:1280px) {
-    .container {
-        max-width: 1280px;
-    }
-    .div-list-collection, .text-title-3 {
-        width: 380px;
-      }
-    .list-collection {
-        width: calc((100% - 20px) / 3);
-        width: 380px;
-      }
-      .ul-collection {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-      }
-    .title-2-collection {
-        font-family: "Manrope", sans-serif;
-        font-weight: 500;
-        font-size: 32px;
-        line-height: 1.375;
-        letter-spacing: -0.03em;
-        color: #fcf9f9;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    }
+  .title-2-collection {
+      font-family: "Manrope", sans-serif;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 1.375;
+      letter-spacing: -0.03em;
+      color: #fcf9f9;
+      text-align: center;
+      margin-bottom: 40px;
+  }
+  .title-3-colection {
+      font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  margin-bottom: 8px;
+  }
+  .paragraph-collection {
+      font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: rgba(252, 249, 249, 0.4);
+  margin: 0;
+  }
+  .text-title-3 {
+      padding-top: 18px;
+      padding-bottom: 23px;
+  }
+  .section-our-colection {
+  padding-top: 18px;
+  padding-bottom: 80px;
+  }
+  .div-list-collection {
+    width: 335px;
+    height: 400px;
+  }
+  .background-image {
+    background-image: url(/img/new-collection/girls@2x-min.jpg);
+    background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          width: 375px;
+          height: 500px;
+          margin-left: auto;
+          margin-right: auto;
+  }
+  .section-backgroung {
+    padding-bottom: 80px;
+  }
+  .image-collection {
+    border-radius: 4px;
+  }
+  
+  .our-collection-group {
+    background-image: url(/img/new-collection/elements@2x-min.png);
+    background-repeat: no-repeat;
+    background-position-y: 316px;
+  background-size: 199px 177px;
+  background-position-x: -126px;
+  }
+  }
+  /* =========================================== STYLES TABLET ===========================================*/
+  @media screen and (min-width: 768px) {
+      .div-list-collection, .text-title-3 {
+          width: 342px;
+        }
+        .list-collection {
+          width: calc((100% - 20px) / 2);
+          width: 335px;
+        }
+        .ul-collection {
+          display: flex;
+          flex-wrap: wrap;
+          gap:20px;
+          border-radius: 4px;
+        }
+        .text-title-3 {
+          padding: 0;
+          padding-top: 18px;
+          width: 335px;
+        }
+        .title-2-collection {
+          text-align: center;
+        }
+        .background-image {
+          background-image: url(/img/new-collection/girls@2x-min.jpg);
+          background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin-left: auto;
+                margin-right: auto;
+                width: 768px;
+                height: 776px;}}

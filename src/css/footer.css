@@ -63,3 +63,111 @@
     text-align: left;
   }
 }
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-img {
+    width: 100%;
+    height: 401px;
+    background-image: url(/img/Vyshyvanka.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 489px;
+    background-position: 1% 50%;
+  }
+
+  .footer-title {
+    font-size: 54px;
+    line-height: 1.19;
+    width: 521px;
+  }
+
+  .footer-colored-title {
+    font-size: 54px;
+    line-height: 1.19;
+  }
+
+  .footer-nav-list {
+    flex-wrap: nowrap;
+    max-width: 768px;
+    margin-bottom: 80px;
+  }
+
+  .footer-nav-list-link:focus,
+  .footer-nav-list-link:hover {
+    color: #ecd979;;
+  }
+
+  .footer-nav-list-branch {
+    width: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer {
+    padding-top: 75px;
+    background-size: 336px;
+  } 
+  .footer-img {
+    padding-top: 75px;
+    background-image: url(/img/Vyshyvanka.png);
+    background-size: 596px;
+    background-position: 0% 0%;
+  }
+
+
+  .footer-nav-list-link {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer-nav-list-link:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 0;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    border-radius: 2px;
+    margin-top: 8px;
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+      width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translate(-50%);
+  }
+
+  .footer-nav-list-link:hover:after,
+  .footer-nav-list-link:focus:after {
+    background-color:#ecd979;;
+    width: 100%;
+    transition-delay: 0.2s;
+  }
+
+  .footer-title {
+    width: 754px;
+    font-size: 64px;
+    line-height: 1.16;
+  }
+
+  .footer-colored-title {
+    font-size: 64px;
+    line-height: 1.16;
+  }
+
+  .footer-nav-list {
+    margin-bottom: 117px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer-img {
+    background-image: url(/img/Vyshyvanka.png);
+    background-size: 496px;
+    max-width: 1440px;
+  }
+}
