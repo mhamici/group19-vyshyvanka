@@ -140,6 +140,7 @@
     justify-content: space-between;
   }
   .box-vysh {
+    display: block;
     background-image: url(/img/img-order/ornam-desctop-min.png);
     width: 640px;
     height: 640px;
