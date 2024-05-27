@@ -139,10 +139,6 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .order-form {
-    margin-bottom: 0;
-  }
-  
   .box-vysh {
     display: block;
     background-image: url(/img/img-order/ornam-desctop-min.png);
