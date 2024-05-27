@@ -68,9 +68,6 @@ background-position-x: -126px;
 }
 /* =========================================== STYLES TABLET ===========================================*/
 @media screen and (min-width: 768px) {
-    .div-list-collection, .text-title-3 {
-        width: 342px;
-      }
       .list-collection {
         width: calc((100% - 20px) / 2);
       }
@@ -83,6 +80,7 @@ background-position-x: -126px;
       .text-title-3 {
         padding: 0;
         padding-top: 18px;
+        width: 335px;
       }
       .title-2-collection {
         text-align: center;
