@@ -1,4 +1,3 @@
-
 .about-section {
     padding-top: 80px;
     padding-bottom: 62px;
@@ -16,6 +15,7 @@
         background-image: url(/img/about/about-bg-img-2x.png);
     }
 }
+
 
 .about-title {
     font-weight: 500;
@@ -37,6 +37,8 @@
     height: auto;
 }
 
+/* .about-content {} */
+
 .about-paragraph {
     font-size: 14px;
     letter-spacing: -0.04em;
@@ -56,11 +58,11 @@
         background-position-x: 399px;
     }
 
+    .about-title{
+        font-size: 44px;
+        line-height: 1.45;
+    }
 
-.about-title{
-    font-size: 44px;
-    line-height: 1.45;
-}
     .about-paragraph{
         font-size: 16px;
         min-width: 704px;
@@ -73,7 +75,7 @@
     .about-image{
         min-width: 704px;
     }
-
+}
 
 @media screen and (min-width: 1280px){
 
@@ -83,14 +85,15 @@
         
     }
 
-.about-content{
-    padding-top: 78.5px;
-    padding-bottom: 78.5px;
-}
+    .about-wrap{
+        flex-wrap: nowrap;
+        gap: 50px;
+    }
 
-.paragraph-1{
-    max-width: 508px;
-}
+    .about-content{
+        padding-top: 78.5px;
+        padding-bottom: 78.5px;
+    }
 
     .paragraph-1{
         min-width: 508px;
