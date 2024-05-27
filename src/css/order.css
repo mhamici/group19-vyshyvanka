@@ -1,7 +1,7 @@
 /*======YUOR_ORDER=========*/
 
 .section-order {
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 .your-order-title {
   padding-bottom: 40px;
@@ -69,7 +69,11 @@
 }
 @media screen and (min-width: 768px) {
   .section-order {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
+    background-image: url(/img/img-order/ornam-tablet-min.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 323px 484px;
   }
   .img-vysh {
     border-radius: 4px;
@@ -84,11 +88,7 @@
     display: block;
     width: 704px;
     height: 600px;
-    background-image: url(/img/img-order/ornam-tablet-min.png);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    padding: 0;
-    background-size: 289px 484px;
+    padding-bottom: 79px;
   }
   .your-order-title {
     width: 542px;
@@ -125,14 +125,18 @@
   }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .box-vysh {
+  .section-order {
     background-image: url(/img/img-order/ornam-tablet@2x-min.png);
+    background-size: 289px 484px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .section-order {
-    padding-bottom: 150px;
+    margin-bottom: 150px;
+    background-image: url(/img/img-order/ornam-desctop-min.png);
   }
   .order-box {
     display: flex;
@@ -140,19 +144,25 @@
     justify-content: space-between;
   }
   .box-vysh {
-    background-image: url(/img/img-order/ornam-desctop-min.png);
+    position: relative;
     width: 640px;
     height: 640px;
-    position: relative;
   }
   .box-vysh .img-vysh {
     position: absolute;
     top: 0;
     right: 0;
   }
+
+  .order-form {
+    margin-bottom: 0;
+  }
+  .order-send-btn {
+    padding-bottom: 0;
+  }
 }
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .box-vysh {
+  .section-order {
     background-image: url(/img/img-order/ornam-desctop@2x-min.png);
   }
 }
