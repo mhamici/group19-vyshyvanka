@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <link rel="stylesheet" href="/group19-vyshyvanka/assets/index-d569d044.css">
+    <link rel="stylesheet" href="/group19-vyshyvanka/assets/index-41ab3b99.css">
   </head>
   <body>
     <header class="header">
@@ -212,11 +212,28 @@
 </section>
       <!---------YOUR_ORDER--------->
 <section class="section-order container">
-  <div class="order-background-image"></div>
   <div class="order-box">
     <div class="box-vysh">
       <picture>
-           <img
+        <source
+          srcset="
+            /img/img-order/vysh-order-tablet-min.jpg,
+            /img/img-order/vysh-order-table@2xt-min.jpg
+          "
+          width="704"
+          height="521"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            /img/img-order/vysh-order-desctop-min.jpg,
+            /img/img-order/vysh-order-desctop@2xt-min.jpg
+          "
+          width="588"
+          height="519"
+          media="(min-width:1280px)"
+        />
+        <img
           class="img-vysh"
           src="/group19-vyshyvanka/assets/vysh-order-desctop-min-63a6cd40.jpg"
           alt="Vyshyvanka"
