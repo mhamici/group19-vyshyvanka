@@ -1,5 +1,4 @@
 /*======YUOR_ORDER=========*/
-
 .section-order {
   padding-bottom: 80px;
 }
@@ -15,6 +14,7 @@
 .yellow-title {
   color: #ecd979;
 }
+
 .order-form {
   display: flex;
   flex-direction: column;
@@ -151,6 +151,7 @@
     right: 0;
   }
 }
+
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .box-vysh {
     background-image: url(/img/img-order/ornam-desctop@2x-min.png);
