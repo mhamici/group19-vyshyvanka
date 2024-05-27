@@ -72,6 +72,10 @@
     .about-wrap{
         gap: 40px;
     }
+
+    .about-image{
+        min-width: 704px;
+    }
 }
 
 @media screen and (min-width: 1280px){
@@ -98,6 +102,10 @@
 
     .paragraph-2{
         min-width: 536px;
+    }
+
+    .about-image{
+        min-width: 594px;
     }
 
 }
