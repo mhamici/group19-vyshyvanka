@@ -1,10 +1,27 @@
 <!---------YOUR_ORDER--------->
 <section class="section-order container">
-  <div class="order-background-image"></div>
   <div class="order-box">
     <div class="box-vysh">
       <picture>
-           <img
+        <source
+          srcset="
+            /img/img-order/vysh-order-tablet-min.jpg,
+            /img/img-order/vysh-order-table@2xt-min.jpg
+          "
+          width="704"
+          height="521"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            /img/img-order/vysh-order-desctop-min.jpg,
+            /img/img-order/vysh-order-desctop@2xt-min.jpg
+          "
+          width="588"
+          height="519"
+          media="(min-width:1280px)"
+        />
+        <img
           class="img-vysh"
           src="/img/img-order/vysh-order-desctop-min.jpg"
           alt="Vyshyvanka"
