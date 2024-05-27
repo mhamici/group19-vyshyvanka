@@ -1,5 +1,5 @@
 /*======YUOR_ORDER=========*/
-.order-background-image {
+/**.order-background-image {
   min-width: 375px;
   min-height: 500px;
   background-image: url(/img/img-order/zelena-order-mob-min.jpg);
@@ -26,6 +26,8 @@
 .yellow-title {
   color: #ecd979;
 }
+*/
+
 .order-form {
   display: flex;
   flex-direction: column;
@@ -113,18 +115,18 @@
   .order-send-btn {
     margin: 0;
   }
-  .order-background-image {
+ /** .order-background-image {
     min-width: 768px;
     min-height: 776px;
     background-image: url(/img/img-order/zelena-order-tablet-min.jpg);
     margin-bottom: 100px;
-  }
+  }**/
 }
-@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+/**@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .order-background-image {
     background-image: url(/img/img-order/zelena-order-tablet@2x-min.jpg);
   }
-}
+}**/
 
 @media screen and (min-width: 1280px) {
   .order-box {
@@ -132,15 +134,20 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .order-background-image {
+  .img-vysh {
+    display:block
+  }
+    }
+  /**.order-background-image {
     min-width: 1282px;
     min-height: 776px;
     background-image: url(/img/img-order/zelena-order-desctop-min.jpg);
     margin-bottom: 150px;
-  }
-}
+  }*/
+
+/**
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .order-background-image {
     background-image: url(/img/img-order/zelena-order-desctop@2x-min.jpg);
   }
-}
+}**/
