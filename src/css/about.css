@@ -4,8 +4,8 @@
     background-image: url(/img/about/about-bg-img.png);
     background-repeat: no-repeat;
     background-size: 459px 408px;
-    background-position-x: 125px;
-    background-position-y: bottom;
+    background-position-x: -147%;
+    background-position-y: 100%;
 
 }
 
@@ -37,13 +37,12 @@
     height: auto;
 }
 
-/* .about-content {} */
-
 .about-paragraph {
     font-size: 14px;
     letter-spacing: -0.04em;
     color: rgba(252, 249, 249, 0.4);
     max-width:335px;
+    font-weight: 400;
 }
 
 .paragraph-1 {
@@ -55,7 +54,8 @@
     .about-section{
         padding: 100px 0;
         background-size: 545px 484px;
-        background-position-x: 399px;
+        background-position-x: 170%;
+        background-position-y: 91%;
     }
 
     .about-title{
@@ -81,8 +81,8 @@
 
     .about-section{
         padding: 150px 0;
-        background-position-x: 895px;
-        
+        background-position-x: 122%;
+        background-position-y: 80%;
     }
 
     .about-wrap{

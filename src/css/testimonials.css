@@ -91,10 +91,16 @@ p {
     gap: 32px;
     flex-direction: row;
   }
+  .testimonials-container{
+    padding-bottom: 100px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .testimonials-li {
     width: 376px;
+  }
+  .testimonials-container{
+    padding-bottom: 150px;
   }
 }
 @media screen and (min-width: 1280px) {
