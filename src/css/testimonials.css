@@ -7,6 +7,11 @@ p {
 .hidden-two {
   display: none;
 }
+
+.testimonials-container{
+  padding-bottom: 80px;
+}
+
 @media screen and (min-width: 768px) {
   .hidden-one {
     display: block;
