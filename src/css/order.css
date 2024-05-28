@@ -80,7 +80,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .order-send-btn {
+  .order-send-btn{
     width: 168px;
     height: 50px;
   }
@@ -171,7 +171,13 @@
     width: 588px;
     height: 521px;
   }
+.img-vysh {
+  margin-right: 50px;
+  width: 588px;
+  height: 521px;
 }
+}
+
 
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .section-order {
