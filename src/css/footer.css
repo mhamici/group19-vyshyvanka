@@ -1,65 +1,129 @@
-@media (min-width: 375px) {
+.footer {
+  background-image: url(/img/footer/bg-footer-mobile.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-top: 1px solid rgba(252, 249, 249, 0.10);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-list-item {
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+  flex-basis: 50%;
+}
+
+.footer-link {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-transform: uppercase;
+  color: #fcf9f9;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:focus,
+.footer-link:hover {
+  color: #ECD979;
+}
+
+.footer-slogan {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 280px;
+}
+
+.footer-span-ukrainian {
+  font-family: "Manrope", sans-serif;
+    font-weight: 400;
+  font-size: 44px;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  color: #ECD979;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .footer {
-    border-top: 1px solid #1c2225;
-    padding-top: 40px;
+    background-image: url(/img/footer/bg-footer-mobile-2x.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    background-image: url(/img/footer/bg-footer-tablet.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: 40px;
   }
 
-  .footer-nav {
-    display: inline-block;
-    margin-bottom: 40px;
-  }
-
-  .footer-img {
-    width: 100%;
-    height: 172px;
-    background-image: url(/img/Vyshyvanka.png);
-    background-size: cover;
-    margin-top: 80px;
-  }
-
-  .footer-nav-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  .footer-list {
+    flex-wrap: nowrap;
     gap: 25px;
-    max-width: 375px;
+    margin-bottom: 80px;
   }
 
-  .footer-nav-list-branch {
-    width: calc((100% - 40px) / 2);
+  .footer-list-item {
+    flex-basis: auto;
   }
 
-  .footer-nav-list-link {
-    color: #fcf9f9;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29;
-    text-transform: uppercase;
-    transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .footer-nav-list-link:focus,
-  .footer-nav-list-link:active {
-    color: #ecd979;
-  }
-
-  .footer-title {
-    color: #fcf9f9;
-    font-family: Manrope;
-    font-size: 44px;
-    font-weight: 400;
-    line-height: 64px;
-    letter-spacing: -0.03em;
-    text-align: left;
-  }
-
-  .footer-colored-title {
-    color: #ecd979;
-    font-family: Manrope;
+  .footer-slogan {
+    max-width: 521px;
     font-size: 54px;
-    font-weight: 400;
-    line-height: 64px;
-    letter-spacing: -0.03em;
-    text-align: left;
+    line-height: 1.19;
+    margin-bottom: 0;
+  }
+
+  .footer-span-ukrainian {
+    font-size: 54px;
+    line-height: 1.19;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    background-image: url(/img/footer/bg-footer-deskt.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .footer-list {
+    margin-bottom: 117px;
+  }
+
+  .footer-slogan {
+    max-width: 754px;
+    font-size: 64px;
+    line-height: 1.16;
+  }
+
+  .footer-span-ukrainian {
+    font-size: 64px;
+    line-height: 1.16;
   }
 }

@@ -1,13 +1,25 @@
-
-
 .about-section {
-    padding: 80px 20px;
+    padding-top: 80px;
+    padding-bottom: 62px;
+    background-image: url(/img/about/about-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 459px 408px;
+    background-position-x: 125px;
+    background-position-y: bottom;
 
 }
+
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi){
+    .about-section{
+        background-image: url(/img/about/about-bg-img-2x.png);
+    }
+}
+
 .about-title {
     font-weight: 500;
     font-size: 32px;
-    line-height: 1.38;
+    line-height: normal;
     letter-spacing: -0.03em;
     color: #fcf9f9;
     margin-bottom: 40px;
@@ -20,9 +32,10 @@
 }
 
 .about-image {
-        max-width: 100%;
-        height: auto;
+    min-width: 335px;
+    height: auto;
 }
+
 
 .about-paragraph {
     font-size: 14px;
@@ -36,47 +49,59 @@
 }
 
 @media screen and (min-width: 768px){
-.about-section{
-    padding: 100px 32px;
-}
 
-.about-title{
-    font-size: 44px;
-    line-height: 1.45;
-}
+    .about-section{
+        padding: 100px 0 50px 0;
+        background-size: 545px 484px;
+        background-position-x: 399px;
+    }
 
-.about-paragraph{
-    font-size: 16px;
-    max-width: 704px;
-}
+    .about-title{
+        font-size: 44px;
+    }
 
-.about-wrap{
-    gap: 40px;
-}
+    .about-paragraph{
+        font-size: 16px;
+        min-width: 704px;
+    }
+
+    .about-wrap{
+        gap: 40px;
+    }
+
+    .about-image{
+        min-width: 704px;
+    }
 }
 
 @media screen and (min-width: 1280px){
-.about-section{
-padding: 150px 50px;
-}
 
-.about-wrap{
-    flex-wrap: nowrap;
-    gap: 50px;
-}
+    .about-section{
+        padding: 150px 0 70px 0;
+        background-position-x: 895px;
+        
+    }
 
-.about-content{
-    padding-top: 78.5px;
-    padding-bottom: 78.5px;
-}
+    .about-wrap{
+        flex-wrap: nowrap;
+        gap: 50px;
+    }
 
-.paragraph-1{
-    max-width: 508px;
-}
+    .about-content{
+        padding-top: 78.5px;
+        padding-bottom: 78.5px;
+    }
 
-.paragraph-2{
-    max-width: 536px;
-}
-}
+    .paragraph-1{
+        min-width: 508px;
+    }
 
+    .paragraph-2{
+        min-width: 536px;
+    }
 
+    .about-image{
+        min-width: 594px;
+    }
+
+}
