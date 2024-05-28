@@ -1,10 +1,22 @@
-
-.about-section {}
-
-.container {
-    padding: 80px 20px;
+.about-section {
+    padding-top: 80px;
+    padding-bottom: 62px;
+    background-image: url(/img/about/about-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 459px 408px;
+    background-position-x: -147%;
+    background-position-y: 100%;
 
 }
+
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi){
+    .about-section{
+        background-image: url(/img/about/about-bg-img-2x.png);
+    }
+}
+
+
 .about-title {
     font-weight: 500;
     font-size: 32px;
@@ -21,17 +33,16 @@
 }
 
 .about-image {
-        max-width: 100%;
-        height: auto;
+    min-width: 335px;
+    height: auto;
 }
-
-.about-content {}
 
 .about-paragraph {
     font-size: 14px;
     letter-spacing: -0.04em;
     color: rgba(252, 249, 249, 0.4);
     max-width:335px;
+    font-weight: 400;
 }
 
 .paragraph-1 {
@@ -39,50 +50,61 @@
 }
 
 @media screen and (min-width: 768px){
-.container{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    /* padding: 100px 32px; */
-}
 
-.about-title{
-    font-size: 44px;
-    line-height: 1.45;
-}
+    .about-section{
+        padding: 100px 0;
+        background-size: 545px 484px;
+        background-position-x: 170%;
+        background-position-y: 91%;
+    }
 
-.about-paragraph{
-    font-size: 16px;
-    max-width: 704px;
-}
+    .about-title{
+        font-size: 44px;
+        line-height: 1.45;
+    }
 
-.about-wrap{
-    gap: 40px;
-}
+    .about-paragraph{
+        font-size: 16px;
+        min-width: 704px;
+    }
+
+    .about-wrap{
+        gap: 40px;
+    }
+
+    .about-image{
+        min-width: 704px;
+    }
 }
 
 @media screen and (min-width: 1280px){
-.container{
-    padding-top: 150px;
-    padding-bottom: 150px;
-/* padding: 150px 50px; */
-}
 
-.about-wrap{
-    flex-wrap: nowrap;
-    gap: 50px;
-}
+    .about-section{
+        padding: 150px 0;
+        background-position-x: 122%;
+        background-position-y: 80%;
+    }
 
-.about-content{
-    padding-top: 78.5px;
-    padding-bottom: 78.5px;
-}
+    .about-wrap{
+        flex-wrap: nowrap;
+        gap: 50px;
+    }
 
-.paragraph-1{
-    max-width: 508px;
-}
+    .about-content{
+        padding-top: 78.5px;
+        padding-bottom: 78.5px;
+    }
 
-.paragraph-2{
-    max-width: 536px;
-}
+    .paragraph-1{
+        min-width: 508px;
+    }
+
+    .paragraph-2{
+        min-width: 536px;
+    }
+
+    .about-image{
+        min-width: 594px;
+    }
 
 }

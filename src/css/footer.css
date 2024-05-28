@@ -1,27 +1,119 @@
-@media (min-width: 375px) {
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #fcf9f91a;
+}
+
+.footer-wrapper {
+  width: 68%;
+  max-width: 1360px;
+  padding: 40px 50px;
+}
+
+.footer-img {
+  background-image: url(/img/Vyshyvanka.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  flex: 1;
+}
+
+.footer-nav {
+  margin-bottom: 117px;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.footer-nav-list-link {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  text-transform: uppercase;
+  transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-nav-list-link:focus,
+.footer-nav-list-link:active {
+  color: #ecd979;
+}
+
+.footer-nav-list-link {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-nav-list-link:after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 0;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  border-radius: 2px;
+  margin-top: 8px;
+  transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(-50%);
+}
+
+.footer-nav-list-link:hover:after,
+.footer-nav-list-link:focus:after {
+  background-color: #ecd979;
+  width: 100%;
+  transition-delay: 0.2s;
+}
+
+.footer-title {
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.footer-colored-title {
+  color: #ecd979;
+  font-family: Manrope;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+@media (min-width: 0) and (max-width: 767px) {
   .footer {
-    border-top: 1px solid #1c2225;
-    padding-top: 40px;
+    flex-direction: column;
+  }
+
+  .footer-wrapper {
+    width: 100%;
+    padding: 40px 50px 0 50px;
+
   }
 
   .footer-nav {
-    display: inline-block;
     margin-bottom: 40px;
   }
 
   .footer-img {
     width: 100%;
     height: 172px;
-    background-image: url(/img/Vyshyvanka.png);
-    background-size: cover;
     margin-top: 80px;
+    flex: auto;
   }
 
   .footer-nav-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 25px;
     max-width: 375px;
   }
 
@@ -29,37 +121,48 @@
     width: calc((100% - 40px) / 2);
   }
 
-  .footer-nav-list-link {
-    color: #fcf9f9;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29;
-    text-transform: uppercase;
-    transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .footer-nav-list-link:focus,
-  .footer-nav-list-link:active {
-    color: #ecd979;
-  }
 
   .footer-title {
-    color: #fcf9f9;
-    font-family: Manrope;
     font-size: 44px;
     font-weight: 400;
     line-height: 64px;
     letter-spacing: -0.03em;
-    text-align: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+  .footer-title {
+    font-size: 54px;
+    line-height: 1.19;
   }
 
   .footer-colored-title {
-    color: #ecd979;
-    font-family: Manrope;
     font-size: 54px;
-    font-weight: 400;
-    line-height: 64px;
-    letter-spacing: -0.03em;
-    text-align: left;
+    line-height: 1.19;
   }
+
+  .footer-nav-list {
+    flex-wrap: nowrap;
+    max-width: 768px;
+    margin-bottom: 80px;
+  }
+
+  .footer-nav-list-link:focus,
+  .footer-nav-list-link:hover {
+    color: #ecd979;
+  }
+
+  .footer-nav-list-branch {
+    width: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-img {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1440px) {
 }
