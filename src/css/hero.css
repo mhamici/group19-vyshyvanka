@@ -1,5 +1,5 @@
  /* -----------------MOBILE STYLES--------------------- */
-@media screen and (min-width: 320px){
+ @media screen and (min-width: 320px){
     /* .section-hero{
         padding-left:20px;
         padding-right: 20px;
@@ -159,10 +159,10 @@
         margin-right: 395px;
     }
 
-    /* .section-hero-image-container{
+    .section-hero-image-container{
         width: 413px;
         height: 575px;
-    } */
+    }
 
     .section-hero-image{
         width: 413px;
@@ -228,6 +228,11 @@
         align-items: center;
         margin-bottom: 16px;
         animation: star 20s linear infinite;
+    }
+
+    .section-hero-image-container{
+        width: 392px;
+        height: 545px;
     }
 
     .section-hero-image{
