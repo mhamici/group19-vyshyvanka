@@ -86,11 +86,17 @@
   }
   .section-order {
     padding-bottom: 100px;
-    background-image: url(/img/img-order/ornam-tablet-min.png);
-    background-repeat: no-repeat;
-    background-position: left bottom 50px;
-    background-size: 289px 484px;
+    background-image: url(/img/img-order/bg-order-tablet.png);
+      background-position: left 91%;
+        background-repeat: no-repeat;
+        background-size: 300px 490px;
   }
+    @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+      .section-order {
+        background-image: url(/img/img-order/bg-order-tablet-2x.png);
+      }
+    }
   .img-vysh {
     border-radius: 4px;
     object-fit: contain;
@@ -140,21 +146,22 @@
   }
 }
 
-@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .section-order {
-    background-image: url(/img/img-order/ornam-tablet@2x-min.png);
-  }
-}
 
 @media screen and (min-width: 1280px) {
   .order-form {
     margin-bottom: 0;
   }
   .section-order {
-    padding-bottom: 150px;
-    background-image: url(/img/img-order/ornam-desctop-min.png);
-    background-position: left bottom 150px;
+    background-image: url(/img/img-order/bg-order-desk.png);
+      background-position-y: 37%;
+      padding-bottom: 150px;
   }
+    @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+      .section-order {
+        background-image: url(/img/img-order/bg-order-desk-2x.png);
+      }
+    }
   .order-box {
     display: flex;
     flex-direction: row;
