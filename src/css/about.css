@@ -4,8 +4,8 @@
     background-image: url(/img/about/about-bg-img.png);
     background-repeat: no-repeat;
     background-size: 459px 408px;
-    background-position-x: -147%;
-    background-position-y: 100%;
+    background-position-x: 125px;
+    background-position-y: bottom;
 
 }
 
@@ -16,11 +16,10 @@
     }
 }
 
-
 .about-title {
     font-weight: 500;
     font-size: 32px;
-    line-height: 1.38;
+    line-height: normal;
     letter-spacing: -0.03em;
     color: #fcf9f9;
     margin-bottom: 40px;
@@ -37,12 +36,12 @@
     height: auto;
 }
 
+
 .about-paragraph {
     font-size: 14px;
     letter-spacing: -0.04em;
     color: rgba(252, 249, 249, 0.4);
     max-width:335px;
-    font-weight: 400;
 }
 
 .paragraph-1 {
@@ -52,15 +51,13 @@
 @media screen and (min-width: 768px){
 
     .about-section{
-        padding: 100px 0;
+        padding: 100px 0 50px 0;
         background-size: 545px 484px;
-        background-position-x: 170%;
-        background-position-y: 91%;
+        background-position-x: 399px;
     }
 
     .about-title{
         font-size: 44px;
-        line-height: 1.45;
     }
 
     .about-paragraph{
@@ -80,9 +77,9 @@
 @media screen and (min-width: 1280px){
 
     .about-section{
-        padding: 150px 0;
-        background-position-x: 122%;
-        background-position-y: 80%;
+        padding: 150px 0 70px 0;
+        background-position-x: 895px;
+        
     }
 
     .about-wrap{
