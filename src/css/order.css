@@ -1,7 +1,7 @@
-/*======YUOR_ORDER=========*/
+/*======YUOR_ORDER======*/
 
 .section-order {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .your-order-title {
   padding-bottom: 40px;
@@ -10,11 +10,12 @@
   font-size: 32px;
   line-height: 1.375;
   letter-spacing: -0.03em;
-  width: 335px;
+  width: 300px;
 }
 .yellow-title {
   color: #ecd979;
 }
+
 .order-form {
   display: flex;
   flex-direction: column;
@@ -26,7 +27,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 15px;
   padding: 14px 16px;
-  min-width: 335px;
+  min-width: 300px;
   height: 47px;
   color: #fcf9f9;
   background-color: transparent;
@@ -36,7 +37,7 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 8px;
   padding: 14px 16px;
-  min-width: 335px;
+  min-width: 300px;
   height: 196px;
   margin-bottom: 20px;
   color: #fcf9f9;
@@ -49,8 +50,7 @@
   gap: 10px;
   cursor: pointer;
   margin: 0 auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 14px 36px;
   min-width: 145px;
   color: #fcf9f9;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -67,18 +67,34 @@
 .box-vysh {
   display: none;
 }
+@media screen and (min-width: 375px) {
+  .your-order-title {
+    width: 335px;
+  }
+  .order-form-input {
+    min-width: 335px;
+  }
+  .textarea-order {
+    min-width: 335px;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  .order-send-btn {
+    width: 168px;
+    height: 50px;
+  }
   .section-order {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     background-image: url(/img/img-order/ornam-tablet-min.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 323px 484px;
+    background-position: left bottom 50px;
+    background-size: 289px 484px;
   }
   .img-vysh {
     border-radius: 4px;
     object-fit: contain;
-    margin-left: 20px;
+    margin: 0 auto;
   }
   .order-box {
     display: flex;
@@ -88,7 +104,6 @@
     display: block;
     width: 704px;
     height: 600px;
-    padding-bottom: 79px;
   }
   .your-order-title {
     width: 542px;
@@ -124,43 +139,40 @@
     border: 1px solid #ecd979;
   }
 }
+
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .section-order {
     background-image: url(/img/img-order/ornam-tablet@2x-min.png);
-    background-size: 289px 484px;
-    background-repeat: no-repeat;
-    background-position: left bottom;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .order-form {
+    margin-bottom: 0;
+  }
   .section-order {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
     background-image: url(/img/img-order/ornam-desctop-min.png);
+    background-position: left bottom 150px;
   }
   .order-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 50px;
   }
   .box-vysh {
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
     width: 640px;
     height: 640px;
   }
-  .box-vysh .img-vysh {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
 
-  .order-form {
-    margin-bottom: 0;
-  }
-  .order-send-btn {
-    padding-bottom: 0;
+  .img-vysh {
+    width: 588px;
+    height: 521px;
   }
 }
+
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .section-order {
     background-image: url(/img/img-order/ornam-desctop@2x-min.png);
