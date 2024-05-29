@@ -152,7 +152,7 @@
     }
 
     .section-hero-image-container{
-        width: 413px;
+        max-width: 413px;
         height: 575px;
     }
 
