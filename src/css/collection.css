@@ -116,7 +116,7 @@
   }
   /* =========================================== STYLES LAPTOP ===========================================*/
   @media screen and (min-width:1280px) {
-      .container {
+      .collection-container {
           max-width: 1280px;
       }
       .div-list-collection, .text-title-3 {
