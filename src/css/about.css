@@ -1,24 +1,26 @@
 .about-section {
     padding-top: 80px;
     padding-bottom: 62px;
-    background-image: url(/img/about/bg-about-mobile.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-    background-position-y: bottom;
+    background-image: url(/img/about/about-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 459px 408px;
+    background-position-x: -147%;
+    background-position-y: 100%;
 
 }
 
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi){
     .about-section{
-        background-image: url(/img/about/bg-about-mobile-2x.png);
+        background-image: url(/img/about/about-bg-img-2x.png);
     }
 }
+
 
 .about-title {
     font-weight: 500;
     font-size: 32px;
-    line-height: normal;
+    line-height: 1.38;
     letter-spacing: -0.03em;
     color: #fcf9f9;
     margin-bottom: 40px;
@@ -35,12 +37,12 @@
     height: auto;
 }
 
-
 .about-paragraph {
     font-size: 14px;
     letter-spacing: -0.04em;
     color: rgba(252, 249, 249, 0.4);
     max-width:335px;
+    font-weight: 400;
 }
 
 .paragraph-1 {
@@ -48,23 +50,17 @@
 }
 
 @media screen and (min-width: 768px){
-    .about-section {
-        background-image: url(/img/about/bg-about-tablet.png);
-    }
-        @media screen and (min-resolution: 2dppx),
-        (min-resolution: 192dpi) {
-            .about-section {
-                background-image: url(/img/about/bg-about-tablet-2x.png);
-            }
-        }
+
     .about-section{
-        padding: 100px 0 50px 0;
+        padding: 100px 0;
         background-size: 545px 484px;
-        background-position-x: 399px;
+        background-position-x: 170%;
+        background-position-y: 91%;
     }
 
     .about-title{
         font-size: 44px;
+        line-height: 1.45;
     }
 
     .about-paragraph{
@@ -82,19 +78,11 @@
 }
 
 @media screen and (min-width: 1280px){
-    .about-section {
-        background-image: url(/img/about/bg-about-deskt.png);
-    }
-        @media screen and (min-resolution: 2dppx),
-        (min-resolution: 192dpi) {
-            .about-section {
-                background-image: url(/img/about/bg-about-deskt-2x.png);
-            }
-        }
+
     .about-section{
-        padding: 150px 0 70px 0;
-        background-position-x: 895px;
-        
+        padding: 150px 0;
+        background-position-x: 122%;
+        background-position-y: 80%;
     }
 
     .about-wrap{
