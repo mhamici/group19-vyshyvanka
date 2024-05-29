@@ -33,8 +33,8 @@
       padding-top: 18px;
       padding-bottom: 23px;
   }
-  .our-collection-group{
-  padding-top: 18px;
+  .our-collection-group {
+    padding-top: 18px;
   padding-bottom: 80px;
   }
   .div-list-collection {
@@ -67,7 +67,7 @@
   }
   }
   /* =========================================== STYLES TABLET ===========================================*/
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px){
         .list-collection {
           width: calc((100% - 20px) / 2);
         }
@@ -80,10 +80,16 @@
         .text-title-3 {
           padding: 0;
           padding-top: 18px;
-          width: 335px;
+          width: 342px;
         }
         .title-2-collection {
           text-align: center;
+          font-family: "Manrope", sans-serif;
+          font-weight: 500;
+          font-size: 44px;
+          line-height: 1.45455;
+          letter-spacing: -0.03em;
+          color: #fcf9f9;
         }
         .background-image {
           background-image: url(/img/new-collection/girls@2x-min.jpg);
@@ -95,15 +101,11 @@
                 width: 768px;
                 height: 776px;
         }
-        .our-collection-group {
-          padding-top: 18px;
-          padding-bottom: 100px;
-          }
           .section-backgroung {
             padding-bottom: 100px;
           }
           .div-list-collection {
-            width: 335px;
+            width: 342px;
             height: 430px;
           }
           .our-collection-group {
@@ -113,12 +115,32 @@
           background-size: 338px 300px;
           background-position-x: -200px;
           }
-  }
+          .title-3-colection {
+            font-family: Manrope, sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 1;
+            letter-spacing: .05em;
+            text-transform: uppercase;
+            color: #fcf9f9;
+            margin-bottom: 8px;
+        }
+          .paragraph-collection {
+            font-family: "Manrope", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1;
+            letter-spacing: 0.05em;
+            color: rgba(252, 249, 249, 0.4);
+            margin: 0;
+        }
+        .our-collection-group {
+          padding-top: 18px;
+        padding-bottom: 100px;
+        }
+        }
   /* =========================================== STYLES LAPTOP ===========================================*/
   @media screen and (min-width:1280px) {
-      .collection-container {
-          max-width: 1280px;
-      }
       .div-list-collection, .text-title-3 {
           width: 380px;
         }
@@ -132,16 +154,23 @@
           gap: 20px;
           justify-content: center;
         }
-      .title-2-collection {
+        .title-2-collection {
+          text-align: center;
           font-family: "Manrope", sans-serif;
           font-weight: 500;
-          font-size: 32px;
-          line-height: 1.375;
-          letter-spacing: -0.03em;
-          color: #fcf9f9;
-          text-align: center;
-          margin-bottom: 40px;
-      }
+          font-size: 44px;
+          line-height: 1.45455;
+          letter-spacing: -0.03em;color: #fcf9f9;
+        }
+        .title-3-colection {
+          font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+        }
       .background-image {
         background-image: url(/img/new-collection/girls@2x-min.jpg);
         background-repeat: no-repeat;
@@ -151,10 +180,6 @@
               width: 1280px;
               height: 776px;
       }
-      .our-collection-group {
-        padding-top: 18px;
-        padding-bottom: 150px;
-        }
         .section-backgroung {
           padding-bottom: 150px;
         }
@@ -164,5 +189,9 @@
           background-position-y: 217px;
         background-size: 338px 300px;
         background-position-x: -170px;
+        }
+        .our-collection-group {
+          padding-top: 18px;
+        padding-bottom: 150px;
         }
       }
