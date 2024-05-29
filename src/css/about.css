@@ -33,7 +33,7 @@
 }
 
 .about-image {
-    min-width: 335px;
+    max-width: 335px;
     height: auto;
 }
 
