@@ -54,7 +54,7 @@ p {
   line-height: 1.375;
   letter-spacing: -0.03em;
   color: #fcf9f9;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 768px) {
   .testimonials-title {
@@ -95,10 +95,17 @@ p {
   padding-bottom: 18px;
   text-align: center;
 }
+.testimonials-list li:nth-child(2),
+.testimonials-list li:nth-child(3) {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .testimonials-li {
     padding: 0px 18px 18px 18px;
   }
+    .testimonials-list li:nth-child(2) {
+      display: block;
+    }
 }
 .testimonials-img-wrapper {
   position: relative;
@@ -128,6 +135,9 @@ p {
   .testimonials-li {
     width: 376px;
   }
+    .testimonials-list li:nth-child(3) {
+      display: block;
+    }
 }
 @media screen and (min-width: 1280px) {
   .testimonials-li-ph {
