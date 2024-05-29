@@ -30,7 +30,7 @@ p {
 @media screen and (min-width: 1280px) {
   .testimonials {
     padding-bottom: 150px;
-    padding-top: 150px;
+    padding-top: 0;
   }
 }
 
