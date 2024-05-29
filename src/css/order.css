@@ -1,5 +1,4 @@
 /*======YUOR_ORDER======*/
-
 .section-order {
   padding-bottom: 80px;
 }
@@ -15,14 +14,12 @@
 .yellow-title {
   color: #ecd979;
 }
-
 .order-form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 20px;
 }
-
 .order-form-input {
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 15px;
@@ -63,7 +60,6 @@
 .order-btn-icon {
   fill: #ecd979;
 }
-
 .box-vysh {
   display: none;
 }
@@ -78,25 +74,18 @@
     min-width: 335px;
   }
 }
-
 @media screen and (min-width: 768px) {
-  .order-send-btn{
+  .order-send-btn {
     width: 168px;
     height: 50px;
   }
   .section-order {
     padding-bottom: 100px;
-    background-image: url(/img/img-order/bg-order-tablet.png);
-      background-position: left 91%;
-        background-repeat: no-repeat;
-        background-size: 300px 490px;
+    background-image: url(/img/img-order/ornam-tablet-min.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 50px;
+    background-size: 289px 484px;
   }
-    @media screen and (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-      .section-order {
-        background-image: url(/img/img-order/bg-order-tablet-2x.png);
-      }
-    }
   .img-vysh {
     border-radius: 4px;
     object-fit: contain;
@@ -145,23 +134,20 @@
     border: 1px solid #ecd979;
   }
 }
-
-
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .section-order {
+    background-image: url(/img/img-order/ornam-tablet@2x-min.png);
+  }
+}
 @media screen and (min-width: 1280px) {
   .order-form {
     margin-bottom: 0;
   }
   .section-order {
-    background-image: url(/img/img-order/bg-order-desk.png);
-      background-position-y: 37%;
-      padding-bottom: 150px;
+    padding-bottom: 150px;
+    background-image: url(/img/img-order/ornam-desctop-min.png);
+    background-position: left bottom 150px;
   }
-    @media screen and (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-      .section-order {
-        background-image: url(/img/img-order/bg-order-desk-2x.png);
-      }
-    }
   .order-box {
     display: flex;
     flex-direction: row;
@@ -173,19 +159,11 @@
     width: 640px;
     height: 640px;
   }
-
   .img-vysh {
     width: 588px;
     height: 521px;
   }
-.img-vysh {
-  margin-right: 50px;
-  width: 588px;
-  height: 521px;
 }
-}
-
-
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .section-order {
     background-image: url(/img/img-order/ornam-desctop@2x-min.png);
