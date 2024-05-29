@@ -43,6 +43,7 @@
     color: rgba(252, 249, 249, 0.4);
     max-width:335px;
     font-weight: 400;
+    line-height: normal;
 }
 
 .paragraph-1 {
